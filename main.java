@@ -19,10 +19,10 @@ public class main {
 
         System.out.println("Expected Output: ");
         System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber + intSecondnumber));
-        System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber - intSecondnumber));
-        System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber * intSecondnumber));
-        System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber / intSecondnumber));
-        System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber % intSecondnumber));
+        System.out.println(intFirstnumber + " - " + intSecondnumber + " = " + (intFirstnumber - intSecondnumber));
+        System.out.println(intFirstnumber + " * " + intSecondnumber + " = " + (intFirstnumber * intSecondnumber));
+        System.out.println(intFirstnumber + " / " + intSecondnumber + " = " + (intFirstnumber / intSecondnumber));
+        System.out.println(intFirstnumber + " % " + intSecondnumber + " = " + (intFirstnumber % intSecondnumber));
     }
 
 
