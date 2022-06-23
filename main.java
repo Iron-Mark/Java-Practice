@@ -1,16 +1,28 @@
+import java.util.Scanner;
 public class main {
     public static void main (String[]args){
-       
-        int a = -5 + 8 * 6 ;
-        int b = (55+9) % 9;
-        int c = 20 + -3*5 / 8;
-        int d = 5 + 15 / 3 * 2 - 8 % 3; 
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Input first number: ");
+        
+        String firstNumber = sc.nextLine();
+        int intFirstnumber = Integer.parseInt(firstNumber);
 
+        Scanner sc2 = new Scanner(System.in);
+        System.out.println("Input second number: ");
+        String secondNumber = sc2.nextLine();
+        int intSecondnumber = Integer.parseInt(secondNumber);
+
+        intFirstnumber = 125;
+        intSecondnumber = 24;
+
+        System.out.println("Expected Output: ");
+        System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber + intSecondnumber));
+        System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber - intSecondnumber));
+        System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber * intSecondnumber));
+        System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber / intSecondnumber));
+        System.out.println(intFirstnumber + " + " + intSecondnumber + " = " + (intFirstnumber % intSecondnumber));
     }
 
 
